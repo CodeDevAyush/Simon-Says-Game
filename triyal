@@ -1,0 +1,74 @@
+// let boxes = document.querySelectorAll(".box")
+// let red = document.querySelector(".red");
+// let green = document.querySelector(".green");
+// let yellow = document.querySelector(".yellow");
+// let blue = document.querySelector(".blue");
+
+
+
+// function randomBlink(rdmColor){
+//     if(rdmColor == 1){
+//         red.classList.add("clickedBox");
+//             setTimeout(() => {
+//                 red.classList.remove("clickedBox");
+//         }, 1000);
+//     } else if(rdmColor == 2){
+//         green.classList.add("clickedBox");
+//             setTimeout(() => {
+//                 green.classList.remove("clickedBox");
+//         }, 1000);
+//     } else if(rdmColor == 3){
+//         yellow.classList.add("clickedBox");
+//             setTimeout(() => {
+//                 yellow.classList.remove("clickedBox");
+//         }, 1000);
+//     } else if(rdmColor == 4){
+//         blue.classList.add("clickedBox");
+//             setTimeout(() => {
+//                 blue.classList.remove("clickedBox");
+//         }, 1000);
+//     } 
+// }
+
+
+// let lastClickedbox = null;
+// let clickBox = null;
+
+// function click(){
+//     for(let box of boxes){
+//         box.addEventListener("click", function(){
+//             lastClickedbox = box;
+//             box.classList.add("clickedBox");
+//             setTimeout(() => {
+//                 box.classList.remove("clickedBox");
+//             }, 1000);
+//             if(lastClickedbox.classList.contains("red")){
+//                 clickBox = 1;
+//                 console.log (clickBox);
+//             } else if(lastClickedbox.classList.contains("green")){
+//                 clickBox = 2;
+//                 console.log (clickBox);
+//             } else if(lastClickedbox.classList.contains("yellow")){
+//                 clickBox = 3;
+//                 console.log (clickBox);
+//             } else if(lastClickedbox.classList.contains("blue")){
+//                 clickBox = 4;
+//                 console.log (clickBox);
+//             }
+//         });
+//     }
+// }
+
+// for(let i=0; i<level; i++){
+//     let rdmColor = Math.floor(Math.random()*4)+1;
+//     console.log(rdmColor);
+//     setTimeout(() =>{
+//         console.log(rdmColor);
+//         randomBlink(rdmColor);
+//         click();
+//         if(rdmColor != clickBox){
+//             console.log("break");
+//         }
+//     }, i*2000);
+    
+// }
