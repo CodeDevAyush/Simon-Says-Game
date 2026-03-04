@@ -31,4 +31,4 @@ A classic memory-enhancement game built using HTML, CSS, and Vanilla JavaScript.
 
 ---
 
-*Created by [Ayush*](https://www.google.com/search?q=https://github.com/codedevayush)
+*Created by [Ayush*](https://github.com/CodeDevAyush)
